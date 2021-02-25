@@ -14,7 +14,6 @@ html, body, .korobka {
     width: 100%;
     background: inherit;
 
-
 }
 
 .menu-item {
@@ -22,14 +21,15 @@ html, body, .korobka {
     color: #ff0;
     border: 5px ridge white;
     height: 40px;
-    padding-top: 7px;
     box-sizing: border-box;
-    font-size: 100%;
-    padding-right: 10px;
+    text-align: center;
+    margin: 3px;
+    padding-inline: 5px;
 }
 
 list {
-    width: 50%;
+    display: flex;
+    width: 70%;
     align-items: center;
     justify-content: center;
 }
@@ -64,6 +64,7 @@ list {
 .c {
     display: flex;
     width: 20%;
+    box-sizing: content-box;
 
 }
 
