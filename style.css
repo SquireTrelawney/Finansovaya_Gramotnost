@@ -1,0 +1,125 @@
+html, body, .korobka {
+    height: 100%;
+    background-image: url(logo2.png);
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+.header {
+
+    display: flex;
+    position: fixed;
+    height: 20%;
+    flex-wrap: wrap;
+    width: 100%;
+    background: inherit;
+
+
+}
+
+.menu-item {
+    display: inline-block;
+    color: #ff0;
+    border: 5px ridge white;
+    height: 40px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    font-size: 100%;
+    padding-right: 10px;
+}
+
+list {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 30px;
+    width: 80%;
+    padding: 2%;
+    color: azure;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    align-items: center;
+}
+
+.b {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+
+.c {
+    display: flex;
+    width: 20%;
+
+}
+
+#button {
+    border-radius: 20px;
+    background-color: aquamarine;
+    height: 50px;
+    width: 80px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.container {
+    height: 100%;
+    background-image: url(logo2.png);
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 50%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.partners {
+    width: 47.6%;
+    margin: 1%;
+    height: 25%;
+}
+
+.c, .menu {
+    height: 100%;
+    padding-bottom: 2%;
+}
+
+.menu-item:hover {
+    background-color: chartreuse;
+    color: blue;
+
+}
+
+.reply {
+    height: 30%;
+    width: 100%;
+
+}
+
+#a:hover {
+    transform: rotate(360deg);
+    transition: transform 1s ease;
+}
+
+h2 {
+    text-align: center;
+}
+A{
+    color: coral;
+}
